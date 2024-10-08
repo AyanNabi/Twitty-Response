@@ -4,6 +4,10 @@ allprojects {
         mavenCentral()
     }
 }
+defaultConfig {
+    applicationId "com.example.newapp" // Change this to your new application ID
+
+}
 
 rootProject.buildDir = "../build"
 subprojects {
